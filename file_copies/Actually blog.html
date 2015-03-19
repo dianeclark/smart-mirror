@@ -30,7 +30,7 @@
               <li><a href="portfolio_two.html">portfolio_two</a></li>
             </ul>
           </li>
-          <li class="selected"><a href="blog.html">Sign Up With Google+</a></li>
+          <li class="selected"><a href="blog.php">Sign Up With Google+</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
       </nav>
@@ -42,7 +42,7 @@
       <div id="left_content">
         <div id="blog_container">
           <div class="blog"><h2>May</h2><h3>20th</h3></div>
-          <h4 class="select"><a href="blog.html">Sign In With Google+</a></h4>
+          <h4 class="select"><a href="blog.php">Sign In With Google+</a></h4>
           <p>Comments</a></p>
           <div class="blog"><h2>Apr</h2><h3>20th</h3></div>
           <h4><a href="blog_2004.html">Sign In With Facebook</a></h4>
@@ -56,11 +56,12 @@
   <span
     style="top-margin:20"
     class="g-signin"
-    data-callback="signin_button_callback"
+    data-callback="signinCallback"
     data-clientid="805034040388-erokn7fetmrl9id1romu3o75m7tbnpqp.apps.googleusercontent.com"
     data-cookiepolicy="single_host_origin"
     data-requestvisibleactions="http://schema.org/AddAction"
-    data-scope="https://www.googleapis.com/auth/plus.profile.emails.read">
+    data-scope="https://www.googleapis.com/auth/plus.login">
+
   </span>
 
 </center>
@@ -71,7 +72,7 @@
 
     <!-- begin footer -->
     <footer>
-      <p>Copyright &copy; 2015 Alfred. All Rights Reserved. </p>
+      <p>Copyright &copy; 2012 PhotoArtWork2_reverse. All Rights Reserved. <a href="http://www.css3templates.co.uk">Design from css3templates.co.uk</a>.</p>
       <p><img src="images/twitter.png" alt="twitter" />&nbsp;<img src="images/facebook.png" alt="facebook" />&nbsp;<img src="images/rss.png" alt="rss" /></p>
     </footer>
     <!-- end footer -->
@@ -81,8 +82,6 @@
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/jquery.easing-sooper.js"></script>
   <script type="text/javascript" src="js/jquery.sooperfish.js"></script>
-  <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/superagent/0.15.7/superagent.js"></script>
-  <script type="text/javascript" src="js/site.js"></script>
   <!-- initialise sooperfish menu -->
   <script type="text/javascript">
     $(document).ready(function() {
