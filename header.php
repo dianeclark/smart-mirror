@@ -39,12 +39,7 @@ $isSignedIn = isset($_SESSION['token']);
     <ul class="sf-menu" id="nav">
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">Who Is Alfred</a></li>
-      <li><a href="#">my portfolio</a>
-        <ul>
-          <li><a href="portfolio_one.html">portfolio_one</a></li>
-          <li><a href="portfolio_two.html">portfolio_two</a></li>
-        </ul>
-      </li>
+      
       <li class="selected"><a href="blog.php">Sign Up With Google+</a></li>
       <li><a href="contact.html">Contact Us</a></li>
       <?php
